@@ -1,0 +1,9 @@
+
+    .rounded-image {
+        width: 50px; /* Adjust the size as needed */
+        height: 50px; /* Ensure the width and height are equal for a perfect circle */
+        border-radius: 50%; /* Makes the image round */
+        object-fit: cover; /* Ensures the image fits within the circle */
+        border: 2px solid #ddd; /* Optional: Add a border */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    }
